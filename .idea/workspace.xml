@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/AnnotationsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyClassAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyFieldAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyMethodAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/DriverSnapshotHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/FormatterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/AbstractMapEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/BuilderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/Clones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/SingletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/SpeedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/StaticFactoryMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/TypeOfMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/FirstIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ReturnIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalReturnIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/Then.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TypeOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/WhenTypeOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/FirstIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Is.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnIs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalThen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Then.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TypeOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/WhenTypeOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/MainVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/ImageCaptionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/ImageNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/TextNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitor/WordCountVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitorPattern.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basics/test/mockSingleton/TestDriverSnapshotHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="printErrorStackTraces" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="29JND1nWoiW4HFT0kTpS0cGE4A5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/dominik/IdeaProjects/Playground/src/main/java/interestings/nurkiewiczTypeOf",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22528736",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="interestings.nurkiewiczTypeOf" />
+      <recent name="interestings.nurkiewiczTypeOf.impl" />
+      <recent name="patterns.visitor.visitors" />
+      <recent name="basics.test.mockSingleton" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TypeOfMain">
+    <configuration name="Clones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="effectiveJava.Clones" />
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="effectiveJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.visitor.MainVisitor" />
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpeedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="effectiveJava.creatingAndDestroyingObjects.SpeedClass" />
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="effectiveJava.creatingAndDestroyingObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeOfMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interestings.nurkiewiczTypeOf.TypeOfMain" />
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interestings.nurkiewiczTypeOf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="effectiveJava.SpeedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="effectiveJava.SpeedClass" />
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="effectiveJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TypeOfMain" />
+        <item itemvalue="Application.MainVisitor" />
+        <item itemvalue="Application.effectiveJava.SpeedClass" />
+        <item itemvalue="Application.Clones" />
+        <item itemvalue="Application.SpeedClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="" />
+      <created>1652827113254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652827113254</updated>
+      <workItem from="1652827127363" duration="452000" />
+      <workItem from="1652827621672" duration="503000" />
+      <workItem from="1652828261565" duration="32000" />
+      <workItem from="1652858213812" duration="46789000" />
+      <workItem from="1653936189340" duration="8847000" />
+      <workItem from="1653949824802" duration="48000" />
+      <workItem from="1654157381648" duration="1065000" />
+      <workItem from="1658342957378" duration="8014000" />
+      <workItem from="1658649481720" duration="21297000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
