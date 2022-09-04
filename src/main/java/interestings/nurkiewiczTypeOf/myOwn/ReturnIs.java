@@ -1,18 +1,29 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-public class ReturnIs<O, E, R, T extends ReturnThen<O, R>> extends AbstractIs<O, E, T> {
+import java.util.function.Function;
 
-    ReturnIs(T parent, O object, Class<E> expectedType) {
-        super(parent, object, expectedType);
+public class ReturnIs<O, T, R> extends AbstractIs<O, T> {
+
+    final ReturnThen<O, R> parent;
+
+    public ReturnIs(ReturnThen<O, R> parent, O object, Class<T> expectedType) {
+        super(object, expectedType);
+        this.parent = parent;
     }
 
-    public T thenReturn(R result) {
-        System.out.println("Is: " + this);
+    public ReturnThen<O, R> thenReturn(R result) {
         if (matches()) {
-            System.out.println(String.format("Nasla sa zhoda objektu [%s] pre triedu [%s]", object, expectedType));
-            return (T) new TerminalReturnThen();
+            return new TerminalReturnThen<>(result);
         }
         return parent;
+    }
+
+    public <R> ReturnThen<O, R> thenReturn(Function<T, R> action) {
+        if (matches()) {
+            R result = action.apply(castObject());
+            return new TerminalReturnThen<>(result);
+        }
+        return new ReturnThen(action.apply(castObject()));
     }
 
 }

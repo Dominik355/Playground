@@ -1,14 +1,31 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-public class ReturnThen<O, R> extends AbstractThen<O> {
+import java.util.NoSuchElementException;
+import java.util.Objects;
+import java.util.function.Function;
+
+public class ReturnThen<O, R> {
+
+    final O object;
 
     ReturnThen(O object) {
-        super(object);
+        this.object = object;
     }
 
-    public <T, E> ReturnIs<O, E, R, ? extends ReturnThen<O, R>> is(Class<E> type) {
-        System.out.println("ReturnThen.is: " + this);
+    public <T> ReturnIs<O, T, R> is(Class<T> type) {
         return new ReturnIs<>(this, object, type);
+    }
+
+    public R get() {
+        throw new NoSuchElementException(Objects.toString(object));
+    }
+
+    public R orElse(R elseReturn) {
+        return elseReturn;
+    }
+
+    public R orElse (Function<O, R> action) {
+        return action.apply(object);
     }
 
 }

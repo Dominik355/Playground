@@ -1,14 +1,21 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-public class Then<O> extends AbstractThen<O> {
+import java.util.function.Consumer;
+
+public class Then<O> {
+
+    final O object;
 
     Then(O object) {
-        super(object);
+        this.object = object;
     }
 
     public <T> Is<O, T> is(Class<T> type) {
-        System.out.println("then.is: " + this);
         return new Is<>(this, object, type);
+    }
+
+    public void orElse(Consumer<O> orElse) {
+        orElse.accept(object);
     }
 
 }

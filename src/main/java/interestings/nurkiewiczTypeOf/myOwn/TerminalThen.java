@@ -10,7 +10,6 @@ public class TerminalThen<O> extends Then<O> {
 
     @Override
     public <T> Is<O, T> is(Class<T> type) {
-        System.out.println("Vraciame TerminalThenis: " + this);
         return new TerminalIs<>(this);
     }
 

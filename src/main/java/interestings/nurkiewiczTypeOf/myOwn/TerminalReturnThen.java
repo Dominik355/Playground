@@ -1,22 +1,26 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-import java.util.function.Consumer;
-
 public class TerminalReturnThen<O, R> extends ReturnThen<O, R> {
 
-    TerminalReturnThen() {
+    private final R result;
+
+    TerminalReturnThen(R result) {
         super(null);
+        this.result = result;
     }
 
     @Override
-    public <T, E> TerminalReturnIs<O, E, R> is(Class<T> type) {
-        System.out.println("Vraciame TerminalReturnIs: " + this);
-        return new TerminalReturnIs<>(this);
+    public <T> TerminalReturnIs<O, T, R> is(Class<T> type) {
+        return new TerminalReturnIs(this, result);
     }
 
     @Override
-    public void orElse(Consumer<O> orElse) {
-        // nooothing gonna happen
+    public R get() {
+        return this.result;
     }
 
+    @Override
+    public R orElse(R elseReturn) {
+        return this.result;
+    }
 }

@@ -1,25 +1,20 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-import java.util.function.Consumer;
+public abstract class AbstractIs<O, T> {
 
-public abstract class AbstractIs<O, E, T extends AbstractThen<O>> {
-
-    final T parent;
     final O object;
-    final Class<E> expectedType;
+    final Class<T> expectedType;
 
-    public AbstractIs(T parent, O object, Class<E> expectedType) {
-        this.parent = parent;
+    protected AbstractIs(O object, Class<T> expectedType) {
         this.object = object;
         this.expectedType = expectedType;
     }
 
-    E castObject() {
-        return (E) this.object;
+    T castObject() {
+        return (T) this.object;
     }
 
     boolean matches() {
         return this.object != null && this.expectedType.isAssignableFrom(this.object.getClass());
     }
-
 }

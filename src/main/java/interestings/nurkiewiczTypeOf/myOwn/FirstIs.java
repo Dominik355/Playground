@@ -1,6 +1,7 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class FirstIs<O, T> {
 
@@ -20,6 +21,21 @@ public class FirstIs<O, T> {
             return new TerminalThen<>();
         }
         return parent;
+    }
+
+    public <R> ReturnThen<O, R> thenReturn(R result) {
+        if (matches()) {
+            return new TerminalReturnThen<>(result);
+        }
+        return new ReturnThen(object);
+    }
+
+    public <R> ReturnThen<O, R> thenReturn(Function<T, R> action) {
+        if (matches()) {
+            R result = action.apply(castObject());
+            return new TerminalReturnThen<>(result);
+        }
+        return new ReturnThen(action.apply(castObject()));
     }
 
     private T castObject() {

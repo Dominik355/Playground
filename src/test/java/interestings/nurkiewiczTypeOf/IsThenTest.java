@@ -8,7 +8,7 @@ import org.mockito.MockitoAnnotations;
 import java.util.Date;
 import java.util.function.Consumer;
 
-import static interestings.nurkiewiczTypeOf.impl.TypeOf.whenTypeOf;
+import static interestings.nurkiewiczTypeOf.myOwn.TypeOf.whenTypeOf;
 import static org.mockito.Mockito.*;
 
 /**

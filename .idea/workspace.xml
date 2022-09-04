@@ -5,61 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/AnnotationsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyClassAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyFieldAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/MyMethodAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/annotations/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/DriverSnapshotHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/FormatterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/AbstractMapEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/BuilderClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/Clones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/SingletonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/SpeedClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/effectiveJava/StaticFactoryMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/TypeOfMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/FirstIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ReturnIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalReturnIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/Then.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TypeOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/WhenTypeOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/FirstIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Is.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnIs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalThen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Then.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TypeOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/WhenTypeOf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/MainVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/ImageCaptionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/ImageNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/node/TextNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitor/WordCountVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/visitor/visitorPattern.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/test/mockSingleton/TestDriverSnapshotHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/ReflectionCheatSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/objectsForDemonstration/BattleShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/objectsForDemonstration/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/DriverSnapshotHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/test/mockSingleton/FormatterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/TypeOfMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/TypeOfMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/FirstIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ReturnIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalReturnIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TerminalThenReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/Then.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenIs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/ThenReturn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/TypeOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/impl/WhenTypeOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/AbstractThen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/FirstIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/FirstIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Is.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Is.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnThen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/ReturnThen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnThen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalReturnThen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalThen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/TerminalThen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Then.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interestings/nurkiewiczTypeOf/myOwn/Then.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basics/test/mockSingleton/TestDriverSnapshotHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -109,7 +87,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dominik/IdeaProjects/Playground/src/main/java/interestings/nurkiewiczTypeOf",
+    "last_opened_file_path": "/home/dominik/IdeaProjects/s1p-19-demo",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22528736",
@@ -127,7 +106,7 @@
       <recent name="basics.test.mockSingleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeOfMain">
+  <component name="RunManager" selected="Application.ReflectionCheatSheet">
     <configuration name="Clones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="effectiveJava.Clones" />
       <module name="Playground" />
@@ -154,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="effectiveJava.creatingAndDestroyingObjects.SpeedClass" />
+    <configuration name="ReflectionCheatSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.reflection.ReflectionCheatSheet" />
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="effectiveJava.creatingAndDestroyingObjects.*" />
+          <option name="PATTERN" value="basics.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionCheatSheet" />
+        <item itemvalue="Application.Clones" />
         <item itemvalue="Application.TypeOfMain" />
         <item itemvalue="Application.MainVisitor" />
         <item itemvalue="Application.effectiveJava.SpeedClass" />
-        <item itemvalue="Application.Clones" />
-        <item itemvalue="Application.SpeedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +198,9 @@
       <workItem from="1653949824802" duration="48000" />
       <workItem from="1654157381648" duration="1065000" />
       <workItem from="1658342957378" duration="8014000" />
-      <workItem from="1658649481720" duration="21297000" />
+      <workItem from="1658649481720" duration="27358000" />
+      <workItem from="1658767172603" duration="2001000" />
+      <workItem from="1662277615408" duration="8148000" />
     </task>
     <servers />
   </component>

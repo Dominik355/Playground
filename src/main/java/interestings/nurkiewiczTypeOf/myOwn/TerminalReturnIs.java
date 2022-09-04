@@ -1,17 +1,16 @@
 package interestings.nurkiewiczTypeOf.myOwn;
 
-import java.util.function.Consumer;
+public class TerminalReturnIs<S, T, R> extends ReturnIs<S, T, R> {
 
-public class TerminalReturnIs<O, E, R> extends ReturnIs<O, E, R, TerminalReturnThen<O, R>> {
+    private final R result;
 
-    TerminalReturnIs(TerminalReturnThen<O, R> parent) {
+    public TerminalReturnIs(TerminalReturnThen parent, R result) {
         super(parent, null, null);
+        this.result = result;
     }
 
     @Override
-    public TerminalReturnThen<O, R> thenReturn(R result) {
-        System.out.println("Vraciame terminalreturnThen: " + this);
+    public ReturnThen<S, R> thenReturn(R result) {
         return parent;
     }
-
 }
