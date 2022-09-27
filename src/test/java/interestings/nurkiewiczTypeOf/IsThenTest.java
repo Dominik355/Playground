@@ -1,7 +1,7 @@
 package interestings.nurkiewiczTypeOf;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
@@ -20,7 +20,7 @@ public class IsThenTest {
     @Mock
     private Consumer<Integer> mock;
 
-    @Before
+    @BeforeEach
     public void injectMocks() {
         MockitoAnnotations.initMocks(this);
     }

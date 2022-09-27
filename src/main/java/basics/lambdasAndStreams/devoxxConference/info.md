@@ -1,0 +1,1 @@
+Take a look into Tests, there is much more exercises for lambdas and stream, than here

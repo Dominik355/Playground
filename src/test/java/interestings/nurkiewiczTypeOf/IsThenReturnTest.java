@@ -1,12 +1,12 @@
 package interestings.nurkiewiczTypeOf;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.Date;
 import java.util.NoSuchElementException;
 
 import static interestings.nurkiewiczTypeOf.myOwn.TypeOf.whenTypeOf;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class IsThenReturnTest {
 
