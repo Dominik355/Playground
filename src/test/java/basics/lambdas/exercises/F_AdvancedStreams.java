@@ -261,14 +261,14 @@ public class F_AdvancedStreams {
     /**
      * As you probably realized, these exercises were mostly about Collecting streams
      * We can cascade collecting elements using downStreams in the Collectors class.
-     * As you could see, there is 1 basic groupBy method, whic hreturns Map<K,List<V>>
+     * As you could see, there is 1 basic groupBy method, which returns Map<K,List<V>>
      *
      * For example :
      *              reader.lines()
      *                         .flatMap(SPLIT_PATTERN::splitAsStream)
      *                         .collect(Collectors.groupingBy(word -> word.substring(0, 1)));
      *
-     * This is actually equals to this :
+     * This is actually equals to that :
      *              reader.lines()
      *                         .flatMap(SPLIT_PATTERN::splitAsStream)
      *                         .collect(Collectors.groupingBy(word -> word.substring(0, 1),

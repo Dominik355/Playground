@@ -1,12 +1,16 @@
 package basics.nio.basics;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 public class NioChannel {
+
+    public static void main(String[] args) throws IOException {
+        NioChannel nch = new NioChannel();
+        nch.basicChannelExample();
+    }
 
     /**
      * FileChannel - reads from and to files
@@ -18,7 +22,7 @@ public class NioChannel {
      */
 
     public void basicChannelExample() throws IOException {
-        RandomAccessFile aFile = new RandomAccessFile("data/nio-data.txt", "rw");
+        RandomAccessFile aFile = new RandomAccessFile("data/currency.txt", "rw");
         FileChannel inChannel = aFile.getChannel();
 
         ByteBuffer buf = ByteBuffer.allocate(48);

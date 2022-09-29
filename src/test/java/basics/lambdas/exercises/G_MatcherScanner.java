@@ -4,15 +4,11 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Comparator;
 import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.util.regex.MatchResult;
 import java.util.Set;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import basics.lambdas.exercises.model.Person;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -39,14 +35,14 @@ public class G_MatcherScanner {
      */
     @Test 
     public void g1_wordsWithApostrophes() {
-        Set<String> result = null; // TODO
+        Set<String> result =
+                WORD_PAT.matcher(SONNET)
+                        .results()
+                        .map(res -> res.group())
+                        .collect(Collectors.toSet());
 
         assertEquals(Set.of("Feed'st", "mak'st"), result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use the Matcher.results() method, then convert each MatchResult into a String.
-    // </editor-fold>
 
     /**
      * Perform the same task as in exercise g1, except using Scanner instead of Matcher.
@@ -55,14 +51,14 @@ public class G_MatcherScanner {
      */
     @Test 
     public void g2_wordsWithApostrophes() {
-        Set<String> result = null; // TODO
+        Set<String> result =
+                new Scanner(SONNET)
+                        .findAll(WORD_PAT)
+                        .map(res -> res.group())
+                        .collect(Collectors.toSet());
 
         assertEquals(Set.of("Feed'st", "mak'st"), result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use the Scanner.findAll() method, then convert each MatchResult into a String.
-    // </editor-fold>
 
     /**
      * Find all vowel trigraphs (that is, sequences of three consecutive vowels)
@@ -73,15 +69,12 @@ public class G_MatcherScanner {
     @Test 
     public void g3_vowelTrigraphs() {
         final Pattern TRIGRAPH_PAT = Pattern.compile("[aeiou]{3}", Pattern.CASE_INSENSITIVE);
-        String result = null; // TODO
+        String result = TRIGRAPH_PAT.matcher(SONNET)
+                .replaceAll(word -> "[" + word.group().toUpperCase() + "]");
 
         assertTrue(result.contains("b[EAU]ty's"));
         assertEquals(614, result.length());
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use the Matcher.replaceAll() method.
-    // </editor-fold>
 
     /**
      * Use Scanner to parse the SONNET string into whitespace-separated tokens.
@@ -95,14 +88,14 @@ public class G_MatcherScanner {
      */
     @Test 
     public void g4_firstLongWhitespaceSeparatedToken() {
-        String result = null; // TODO
+        String result =
+                new Scanner(SONNET).tokens()
+                                .filter(word -> word.length() == 10)
+                                .findFirst()
+                                .get();
 
         assertEquals("contracted", result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use the Scanner.tokens() method.
-    // </editor-fold>
 
 
 // ========================================================

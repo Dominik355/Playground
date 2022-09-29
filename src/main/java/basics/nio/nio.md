@@ -24,10 +24,14 @@ Thus, a single thread can monitor multiple channels for data.
 **Channel**\
 Channel is similar to stream, but :
 - we can both read and write to a Channel
-- can be read and writte nasynchronously
+- can be read and written asynchronously
 - Channel always read to, or write from **Buffer** [Channel ---> Buffer, Channel <--- Buffer]
 
-
+**Buffer**\
+Java NIO Buffers are used when interacting with NIO Channels\
+As you already know, data is read from channels into buffers, and written from buffers into channels.\
+A buffer is essentially a block of memory into which you can write data, which you can then later read again.\
+This memory block is wrapped in a NIO Buffer object, which provides a set of methods that makes it easier to work with the memory block.
 
 
 

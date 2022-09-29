@@ -5,59 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SonnetI.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/currency.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/PlayWithComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/PlayWithConsumers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/PlayWithPredicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/info.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/streamsAndLambdas.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/CurrencyConverterWithRounding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/devoxxConference/util/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/CheckexExceptionHanling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/domain/Beer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/domain/CheckedFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/domain/Either.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/domain/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/exceptionHandling/checkedExceptions/domain/PouringException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/NioMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/nio.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/optional/OptionalCheatSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/optional/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/nioTestFile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/A_Lambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/B_Comparators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/C_DefaultMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/D_SimpleStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/E_IntermediateStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/F_AdvancedStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/G_MatcherScanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/H_Challenges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/suite/JUnit5SuiteForLambdas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part1/Test01_Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part1/Test02_Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part1/Test03_Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part1/Test04_CurrencyConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part1/Test05_Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test00_MapFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test01_FlatMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test03_Reduction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test04_FunctionCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test05_ToMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test06_GroupingBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test07_CascadingCollectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/basics/lambdasAndStreams/devoxxConference/part2/Test08_StreamingMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/dataStructuresAndAlgorithms/structures/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/lambdasAndStreams/lambdasAndStreams.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenReturnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/interestings/nurkiewiczTypeOf/IsThenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/nio.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/nio/nio.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/F_AdvancedStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/F_AdvancedStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/G_MatcherScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/G_MatcherScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/H_Challenges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basics/lambdas/exercises/H_Challenges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,73 +95,81 @@
       <recent name="basics.test.mockSingleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalCheatSheet">
-    <configuration name="CheckexExceptionHanling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.lambdasAndStreams.exceptionHandling.checkedExceptions.CheckexExceptionHanling" />
+  <component name="RunManager" selected="JUnit.H_Challenges.h9_mapOfMapsOfClassesAndInterfaces">
+    <configuration name="H_Challenges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.lambdasAndStreams.exceptionHandling.checkedExceptions.*" />
+          <option name="PATTERN" value="basics.lambdas.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="basics.lambdas.exercises" />
+      <option name="MAIN_CLASS_NAME" value="basics.lambdas.exercises.H_Challenges" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionHandle1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.lambdasAndStreams.exceptionHandling.ExceptionHandle1" />
+    <configuration name="H_Challenges.h6_majority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.lambdasAndStreams.exceptionHandling.*" />
+          <option name="PATTERN" value="basics.lambdas.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OptionalCheatSheet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.optional.OptionalCheatSheet" />
-      <module name="Playground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test07_CascadingCollectors.cascadingCollectors_streamingMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Playground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.lambdas.devoxxConference.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basics.lambdas.devoxxConference.part2" />
-      <option name="MAIN_CLASS_NAME" value="basics.lambdas.devoxxConference.part2.Test07_CascadingCollectors" />
-      <option name="METHOD_NAME" value="cascadingCollectors_streamingMap" />
+      <option name="PACKAGE_NAME" value="basics.lambdas.exercises" />
+      <option name="MAIN_CLASS_NAME" value="basics.lambdas.exercises.H_Challenges" />
+      <option name="METHOD_NAME" value="h6_majority" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test08_StreamingMaps.streamingMaps_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="H_Challenges.h7_shoemaker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.lambdas.devoxxConference.part2.*" />
+          <option name="PATTERN" value="basics.lambdas.exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="basics.lambdas.devoxxConference.part2" />
-      <option name="MAIN_CLASS_NAME" value="basics.lambdas.devoxxConference.part2.Test08_StreamingMaps" />
-      <option name="METHOD_NAME" value="streamingMaps_1" />
+      <option name="PACKAGE_NAME" value="basics.lambdas.exercises" />
+      <option name="MAIN_CLASS_NAME" value="basics.lambdas.exercises.H_Challenges" />
+      <option name="METHOD_NAME" value="h7_shoemaker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H_Challenges.h8_mapOfClassesAndInterfaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.lambdas.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basics.lambdas.exercises" />
+      <option name="MAIN_CLASS_NAME" value="basics.lambdas.exercises.H_Challenges" />
+      <option name="METHOD_NAME" value="h8_mapOfClassesAndInterfaces" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H_Challenges.h9_mapOfMapsOfClassesAndInterfaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Playground" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.lambdas.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basics.lambdas.exercises" />
+      <option name="MAIN_CLASS_NAME" value="basics.lambdas.exercises.H_Challenges" />
+      <option name="METHOD_NAME" value="h9_mapOfMapsOfClassesAndInterfaces" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OptionalCheatSheet" />
-        <item itemvalue="Application.CheckexExceptionHanling" />
-        <item itemvalue="Application.ExceptionHandle1" />
-        <item itemvalue="JUnit.Test08_StreamingMaps.streamingMaps_1" />
-        <item itemvalue="JUnit.Test07_CascadingCollectors.cascadingCollectors_streamingMap" />
+        <item itemvalue="JUnit.H_Challenges.h9_mapOfMapsOfClassesAndInterfaces" />
+        <item itemvalue="JUnit.H_Challenges.h8_mapOfClassesAndInterfaces" />
+        <item itemvalue="JUnit.H_Challenges.h7_shoemaker" />
+        <item itemvalue="JUnit.H_Challenges.h6_majority" />
+        <item itemvalue="JUnit.H_Challenges" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +205,7 @@
       <workItem from="1658767172603" duration="2001000" />
       <workItem from="1662277615408" duration="9214000" />
       <workItem from="1663010955238" duration="27037000" />
-      <workItem from="1663334727889" duration="67462000" />
+      <workItem from="1663334727889" duration="92135000" />
     </task>
     <servers />
   </component>
