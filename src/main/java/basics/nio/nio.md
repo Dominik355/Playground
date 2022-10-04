@@ -34,8 +34,61 @@ A buffer is essentially a block of memory into which you can write data, which y
 This memory block is wrapped in a NIO Buffer object, which provides a set of methods that makes it easier to work with the memory block.
 
 
+                                                    **IO vs NIO**
+**IO:**  Stream oriented         Blocking IO\
+**NIO:** Buffer oriented         Non Blocking IO Selectors
+
+**Stream oriented**\
+Java IO being stream oriented means that you read one or more bytes at a time, from a stream.\
+What you do with the read bytes is up to you. They are not cached anywhere.\
+Furthermore, you cannot move forth and back in the data in a stream.\
+If you need to move forth and back in the data read from a stream, you will need to cache it in a buffer first.\
+
+**Buffer Oriented**\
+Data is read into a buffer from which it is later processed.\
+ou can move forth and back in the buffer as you need to. \
+However, you also need to check if the buffer contains all the data you need in order to fully process it. \
+And, you need to make sure that when reading more data into the buffer, you do not overwrite data in the buffer you have not yet processed. 
 
 
+**The Processing of Data**\
+The processing of the data is also affected when using a pure NIO design, vs. an IO design.\
+In an IO design you read the data byte for byte from an InputStream or a Reader. \
+
+_With IO we can do stuff like :\
+        InputStream input = ... ; // get the InputStream from the client socket\
+        BufferedReader reader = new BufferedReader(new InputStreamReader(input));\
+        String nameLine   = reader.readLine();_\
+
+you know for sure that a full line of text has been read. \
+The readLine() blocks until a full line is read, that's why. \
+You also know that this line contains the name.\
+
+_With NIO:_\
+        _ByteBuffer buffer = ByteBuffer.allocate(48);\
+        int bytesRead = inChannel.read(buffer);_\
+
+Notice the second line which reads bytes from the channel into the ByteBuffer. \
+When that method call returns you don't know if all the data you need is inside the buffer. \
+All you know is that the buffer contains some bytes. This makes processing somewhat harder. \
+Imagine if, after the first read(buffer) call, that all what was read into the buffer was half a line.\
+You need to wait until at leas a full line of data has been into the buffer, \
+before it makes sense to process any of the data at all. \
+
+So how do you know if the buffer contains enough data for it to make sense to be processed?\
+Well, you don't. The only way to find out, is to look at the data in the buffer. \
+The result is, that you may have to inspect the data in the buffer several times before you know if all the data is inthere.\
+This is both inefficient, and can become messy in terms of program design. \
+For instance:\
+        _ByteBuffer buffer = ByteBuffer.allocate(48);\
+        int bytesRead = inChannel.read(buffer);\
+        while(! bufferFull(bytesRead) ) {\
+        bytesRead = inChannel.read(buffer);\
+        }_\
+
+The bufferFull() method has to keep track of how much data is read into the buffer, and return either true or false\
+depending on whether the buffer is full\
+In other words, if the buffer is ready for processing, it is considered full. \
 
 
 
