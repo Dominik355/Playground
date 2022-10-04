@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/JavaUnderTheHood_Or_LowLevelStuff/runtime/JavaRuntimeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/ChannelTransfers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioFileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioFileChannelAsynchronous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioPipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioSocketChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/ScatterAndGather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/Selectorexample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/BetterWatcherExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/WatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/watch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/WatchDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/basics/nio/basics/watch/WatchDirTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/currency.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/currency.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/dataStructuresAndAlgorithms/structures/BinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/NioBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/nio.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/nio/nio.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/BetterWatcherExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +91,7 @@
       <recent name="basics.test.mockSingleton" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WatchExample">
+  <component name="RunManager" selected="Application.WatchDir">
     <configuration name="JavaRuntimeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.JavaUnderTheHood_Or_LowLevelStuff.runtime.JavaRuntimeClass" />
       <module name="Playground" />
@@ -134,22 +118,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioFiles (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.nio.basics.NioFiles" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing" />
       <module name="Playground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.nio.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing" />
+    <configuration name="WatchDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.nio.basics.watch.WatchDir" />
       <module name="Playground" />
+      <option name="PROGRAM_PARAMETERS" value="-r testData/watcher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basics.nio.basics.watch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WatchDir" />
         <item itemvalue="Application.WatchExample" />
         <item itemvalue="Application.Testing" />
         <item itemvalue="Application.JavaRuntimeClass" />
         <item itemvalue="Application.NioFileChannelAsynchronous" />
-        <item itemvalue="Application.NioFiles (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +183,7 @@
       <workItem from="1662277615408" duration="9214000" />
       <workItem from="1663010955238" duration="27037000" />
       <workItem from="1663334727889" duration="135483000" />
-      <workItem from="1664913838730" duration="2731000" />
+      <workItem from="1664913838730" duration="6448000" />
     </task>
     <servers />
   </component>
