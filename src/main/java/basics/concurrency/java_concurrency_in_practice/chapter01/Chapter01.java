@@ -4,19 +4,21 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
+import static basics.concurrency.java_concurrency_in_practice.Utils.log;
+
 public class Chapter01 {
     public static void main(String[] args) {
         Examples.UnsafeSequence unsafeSeq = new Examples.UnsafeSequence();
         parallelize(unsafeSeq::getNext);
 
         // probably won't be 10000! (not thread-safe)
-        System.out.println(unsafeSeq.getNext());
+        log(unsafeSeq.getNext());
 
         Examples.SafeSequence safeSeq = new Examples.SafeSequence();
         parallelize(safeSeq::getNext);
 
         // should be 10000 (thread-safe)
-        System.out.println(safeSeq.getNext());
+        log(safeSeq.getNext());
     }
 
     public static void parallelize(Runnable r) {
@@ -32,4 +34,7 @@ public class Chapter01 {
             throw new RuntimeException(e);
         }
     }
+
 }
+
+
