@@ -83,7 +83,7 @@ If you iterate a concurrent list & a modification happens meanwhile, you will ge
 
 Note that detecting this is not guaranteed, but it's more of a best-effort guarantee. This is a deliberate design trade-off to improve performance of modification detection code.
 
-The solution here is also to lock the collection while iterating it, but this introduces risks of deadlock. 
+The part1 here is also to lock the collection while iterating it, but this introduces risks of deadlock. 
 
 An alternative is to clone the collection & iterate the clone. The cloning operation will still need to be locked.
 
@@ -165,7 +165,7 @@ Blocking queues support the operation a normal queue does, but they block on `ta
 
 They are useful for implementing producer-consumer designs where there are a number of producers and a number of consumers as it allows producers and consumers to be decoupled from one another.  
 
-One important caveat when designing a solution with a blocking queue is to always use a bounded queue as otherwise, if producers produce work faster than consumers can process it, you might run out of memory.
+One important caveat when designing a part1 with a blocking queue is to always use a bounded queue as otherwise, if producers produce work faster than consumers can process it, you might run out of memory.
 
 The class library offers several implementations of this interface - `LinkedBlockingQueue` and `ArrayBlockingQueue` are standard concurrent FIFO queues. `PriorityBlockingQueue` allows elements to be ordered.
 

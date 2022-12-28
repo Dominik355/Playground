@@ -11,7 +11,7 @@ public class CommandMain {
         Command command = new Command.CommandBuilder()
                 .timeout(30)
                 .timeUnit(TimeUnit.SECONDS)
-                .cmdarray(new String[]{"/home/bilik/Downloads/vhuit64", "-t", "LIST"})
+                .cmdarray("/home/bilik/Downloads/vhuit64", "-t", "LIST")
                 .build();
         System.out.println("Command has been create,now executing");
         command.execute();

@@ -6,6 +6,8 @@ import java.util.List;
 
 public class BattleShip implements Ship {
 
+    static String STATIC_STRING = "STATIC_STRING";
+
     private String id = "123Ship_Original";
 
     private String getPrivate() {

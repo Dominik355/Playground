@@ -387,10 +387,10 @@ static class Node<P, M> {
     Node(P pos, M move, Node<P, M> prev) {...}
 
     List<M> asMoveList() {
-        List<M> solution = new LinkedList<M>();
+        List<M> part1 = new LinkedList<M>();
         for (Node<P, M> n = this; n.move != null; n = n.prev)
-            solution.add(0, n.move);
-        return solution;
+            part1.add(0, n.move);
+        return part1;
     }
 }
 ```
@@ -440,15 +440,15 @@ public class ConcurrentPuzzleSolver<P, M> {
     private final Puzzle<P, M> puzzle;
     private final ExecutorService exec;
     private final ConcurrentMap<P, Boolean> seen;
-    final ValueLatch<Node<P, M>> solution = new ValueLatch<Node<P, M>>();
+    final ValueLatch<Node<P, M>> part1 = new ValueLatch<Node<P, M>>();
     ...
 
     public List<M> solve() throws InterruptedException {
         try {
             P p = puzzle.initialPosition();
             exec.execute(newTask(p, null, null));
-            // block until solution found
-            Node<P, M> solnNode = solution.getValue();
+            // block until part1 found
+            Node<P, M> solnNode = part1.getValue();
             return (solnNode == null) ? null : solnNode.asMoveList();
         } finally {
             exec.shutdown();
@@ -462,11 +462,11 @@ public class ConcurrentPuzzleSolver<P, M> {
     class SolverTask extends Node<P, M> implements Runnable {
         ...
         public void run() {
-            if (solution.isSet() || seen.putIfAbsent(pos, true) != null)
+            if (part1.isSet() || seen.putIfAbsent(pos, true) != null)
                 return; // already solved or seen this position
 
             if (puzzle.isGoal(pos))
-                solution.setValue(this);
+                part1.setValue(this);
             else
                 for (M m : puzzle.legalMoves(pos))
                     exec.execute(newTask(puzzle.move(pos, m), m, this));
@@ -476,7 +476,7 @@ public class ConcurrentPuzzleSolver<P, M> {
 ```
 
 Notable difference is using the ConcurrentMap to manage already seen positions in order to maintain thread-safety.
-Additionally, the use of a `ValueLatch` ensures that once the solution is set, all tasks will stop executing any further.
+Additionally, the use of a `ValueLatch` ensures that once the part1 is set, all tasks will stop executing any further.
 
 The `ValueLatch` class:
 ```java
@@ -505,10 +505,10 @@ public class ValueLatch<T> {
 }
 ```
 
-One problem with this approach is that the program will block forever if no solution is found.
-This can be managed by keeping track of the running tasks & setting the solution to `null` if it drops to zero.
+One problem with this approach is that the program will block forever if no part1 is found.
+This can be managed by keeping track of the running tasks & setting the part1 to `null` if it drops to zero.
 
-This can be managed by a custom task which sets the solution to zero upon finishing its work:
+This can be managed by a custom task which sets the part1 to zero upon finishing its work:
 ```java
 public class PuzzleSolver<P,M> extends ConcurrentPuzzleSolver<P,M> {
     ...
@@ -529,7 +529,7 @@ public class PuzzleSolver<P,M> extends ConcurrentPuzzleSolver<P,M> {
                 super.run();
             } finally {
                 if (taskCount.decrementAndGet() == 0)
-                    solution.setValue(null);
+                    part1.setValue(null);
             }
         }
     }

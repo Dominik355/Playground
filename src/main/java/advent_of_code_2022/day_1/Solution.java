@@ -1,4 +1,4 @@
-package advent_of_code_2022.first;
+package advent_of_code_2022.day_1;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -15,7 +15,7 @@ public class Solution {
 
     // top 1
     void part1() throws Exception {
-        List<String> lines = Files.readAllLines(Path.of(getClass().getClassLoader().getResource("advent1_input.txt").toURI()));
+        List<String> lines = Files.readAllLines(Path.of(getClass().getClassLoader().getResource("day_1.txt").toURI()));
         int biggest = 0;
         int sum = 0;
         for (int i = 0; i < lines.size(); i++) {
@@ -34,7 +34,7 @@ public class Solution {
 
     // top 3
     void part2() throws Exception {
-        List<String> lines = Files.readAllLines(Path.of(getClass().getClassLoader().getResource("advent1_input.txt").toURI()));
+        List<String> lines = Files.readAllLines(Path.of(getClass().getClassLoader().getResource("day_1.txt").toURI()));
         int[] threeBest = new int[3];
         int sum = -1;
         for (int i = 0; i < lines.size(); i++) {

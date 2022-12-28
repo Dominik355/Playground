@@ -235,7 +235,7 @@ Classes that make open calls are more well-behaved and more easily composable.
 
 Analyzing programs for deadlocks is easier when classes use open calls only as finding lock-ordering dependencies is way easier.
 
-The solution to the problem we saw is refactoring the `Taxi` and `Dispatcher` to have smaller synchronized blocks, leading to open calls:
+The part1 to the problem we saw is refactoring the `Taxi` and `Dispatcher` to have smaller synchronized blocks, leading to open calls:
 ```java
 @ThreadSafe
 class Taxi {

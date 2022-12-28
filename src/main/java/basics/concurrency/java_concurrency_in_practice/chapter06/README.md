@@ -329,7 +329,7 @@ Page renderPageWithAd() throws InterruptedException {
 ```
 
 ## Example: a travel reservations portal
-In this example, the time-budgeting solution is generalized to a set of tasks (rather than a single task).
+In this example, the time-budgeting part1 is generalized to a set of tasks (rather than a single task).
 
 A travel reservations portal shown bids from various companies to a user, who has input a travel date (e.g. Booking.com).  
 Depending on the company, fetching the bid might be very slow.
@@ -338,7 +338,7 @@ Rather than letting the response time for the page be driven by the slowest bid 
 
 Fetching a bid from one company is independent from fetching from another so that task can be easily & effectively parallelized.
 
-This solution leverages `invokeAll` which allows you to submit a set of tasks at once (rather than submitting them one at a time & appending the `Future` in some list).
+This part1 leverages `invokeAll` which allows you to submit a set of tasks at once (rather than submitting them one at a time & appending the `Future` in some list).
 The returned collection from `invokeAll` has the same order as the input collection of tasks, allowing you to associate a task to a future.
 
 ```java

@@ -5,205 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e439e5c3-a190-4869-ad9e-a9f888cdc158" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/first/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/AtomicIntegerVsSynchronized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/WaitAndNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/Java Concurrency in Practice.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter01/HowSynchronizedWorks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/ended.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/advent1_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_2/Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_2/Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_3/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_4/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_5/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/sablona/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/unsafe/CompareAndSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/unsafe/CreateInstanceWithoutConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/unsafe/MemoryAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/unsafe/ObjectStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/unsafe/UnsafeHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/basics/varhandle/ObtainVarHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commonsForDemonstration/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fastAndFurious/numericPrimitives/Benchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fastAndFurious/numericPrimitives/benchmark.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fastAndFurious/unsafeAndReflection/ObjectInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/bramp/common/Preconditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/bramp/info.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interestings/bramp/unsafe_helper/UnsafeHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/day_5t.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/src/main/java/Chapter02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter02/Chapter02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter02/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-02/images/slow-service.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter03/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-03/images/thread-visibility.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter04/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-04/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-05/images/cache-performance-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/images/cache-performance-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-05/images/cache-race-condition-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/images/cache-race-condition-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-05/images/cache-race-condition.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/images/cache-race-condition.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter06/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter07/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter07/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-07/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter07/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter08/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-09/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter09/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-09/images/short-running-task-complex-example.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter09/images/short-running-task-complex-example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-09/images/short-running-task-example.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter09/images/short-running-task-example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-10/images/deadlock-example.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/images/deadlock-example.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter11/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter11/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/images/blocking-queue-comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter11/images/blocking-queue-comparison.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-11/images/concurrent-collections-comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter11/images/concurrent-collections-comparison.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/images/bounded-buffer-measurements.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/images/bounded-buffer-measurements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/images/bounded-buffers-comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/images/bounded-buffers-comparison.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/images/bounder-buffer-performance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/images/bounder-buffer-performance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/images/dynamic-compilation-impact.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/images/dynamic-compilation-impact.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-12/images/single-item-buffer-measurements.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter12/images/single-item-buffer-measurements.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter13/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/images/intrinsic-vs-explicit-locks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/images/readwrite-lock-vs-explicit-lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-13/images/unfair-vs-fair-locking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter14/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter14/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-14/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter14/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-15/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter15/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-15/images/high-contention-performance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter15/images/high-contention-performance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-15/images/moderate-contention-performance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter15/images/moderate-contention-performance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter16/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/src/main/java/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter16/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/examples/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter16/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter-16/images/monitor-lock-rule.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter16/images/monitor-lock-rule.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter01/Chapter01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter01/Chapter01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/first/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advent_of_code_2022/day_1/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/OSCommandExecution/CommandMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/OSCommandExecution/CommandMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter05/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter06/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter07/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter07/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter08/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter08/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice/chapter10/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/watch.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/nio/basics/watch/watch.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/reflection/ReflectionCheatSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/ReflectionCheatSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basics/reflection/objectsForDemonstration/BattleShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basics/reflection/objectsForDemonstration/BattleShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/advent1_input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/day_1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -254,26 +99,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/dominik/IdeaProjects/Playground/src/main/java/basics/concurrency/java_concurrency_in_practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22528736",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dominik-bilik/projects/Playground&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22528736&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/basics/concurrency/java_concurrency_in_practice" />
       <recent name="$PROJECT_DIR$/src/main/java/basics/concurrency/java-concurrency-in-practice/chapter-01" />
@@ -295,14 +143,17 @@
       <recent name="basics.concurrency.java_concurrency_in_practice.chapter10" />
       <recent name="basics.concurrency.java_concurrency_in_practice.chapter07" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advent_of_code_2022.day_5" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WaitAndNotify">
-    <configuration name="AtomicIntegerVsSynchronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.concurrency.AtomicIntegerVsSynchronized" />
+  <component name="RunManager" selected="Application.Testing">
+    <configuration name="CompareAndSwap (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.unsafe.CompareAndSwap" />
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.concurrency.*" />
+          <option name="PATTERN" value="basics.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HowSynchronizedWorks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.concurrency.java_concurrency_in_practice.chapter01.HowSynchronizedWorks" />
+    <configuration name="CompareAndSwap (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.unsafe.CompareAndSwap" />
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.concurrency.java_concurrency_in_practice.chapter01.*" />
+          <option name="PATTERN" value="basics.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,12 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.concurrency.java_concurrency_in_practice.chapter03.Main" />
+    <configuration name="CreateInstanceWithoutConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.unsafe.CreateInstanceWithoutConstructor" />
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.concurrency.java_concurrency_in_practice.chapter03.*" />
+          <option name="PATTERN" value="basics.unsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="advent_of_code_2022.first.Solution" />
+    <configuration name="ObjectInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastAndFurious.unsafeAndReflection.ObjectInitialization" />
       <module name="Playground" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="advent_of_code_2022.first.*" />
+          <option name="PATTERN" value="fastAndFurious.unsafeAndReflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,26 +200,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.concurrency.WaitAndNotify" />
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing" />
       <module name="Playground" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basics.concurrency.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WaitAndNotify" />
-        <item itemvalue="Application.AtomicIntegerVsSynchronized" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.HowSynchronizedWorks" />
+        <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.ObjectInitialization" />
+        <item itemvalue="Application.CreateInstanceWithoutConstructor" />
+        <item itemvalue="Application.CompareAndSwap (2)" />
+        <item itemvalue="Application.CompareAndSwap (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +252,15 @@
       <workItem from="1669216373113" duration="2068000" />
       <workItem from="1669393678499" duration="1465000" />
       <workItem from="1669723479147" duration="5895000" />
-      <workItem from="1669828964634" duration="29138000" />
+      <workItem from="1670344293427" duration="1445000" />
+      <workItem from="1670398470522" duration="4876000" />
+      <workItem from="1670623305015" duration="430000" />
+      <workItem from="1670666426284" duration="85000" />
+      <workItem from="1670841939293" duration="208000" />
+      <workItem from="1671018067077" duration="4230000" />
+      <workItem from="1671101903580" duration="376000" />
+      <workItem from="1671725642252" duration="553000" />
+      <workItem from="1672136837109" duration="27246000" />
     </task>
     <servers />
   </component>

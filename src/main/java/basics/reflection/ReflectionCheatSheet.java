@@ -94,12 +94,17 @@ public class ReflectionCheatSheet {
         }
 
         Field privateStringField;
+        Field staticstringField;
 
         try {
             privateStringField = reflectClass.getDeclaredField("id");
             privateStringField.setAccessible(true);
             String valueOfField = (String) privateStringField.get(obj); // we want value of that field for instance 'obj' which we created
             System.out.println("Private field value: " + valueOfField);
+
+            staticstringField = reflectClass.getDeclaredField("STATIC_STRING");
+            staticstringField.setAccessible(true);
+            System.out.println("Static string field: " + staticstringField.get(null));
 
             // now do method
             System.out.println();

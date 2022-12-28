@@ -32,7 +32,7 @@ An activity is cancellable if external code can move it to completion before it 
 Why you might want to cancel a task:
  * User-requested (e.g. user clicks the "Cancel" button)
  * Time-limited activities - e.g. you want to execute something for 5s and return results. Greedy algorithms/NP-Complete problems.
- * Application events - You stop concurrent tasks running when one of the tasks finds the solution you're looking for
+ * Application events - You stop concurrent tasks running when one of the tasks finds the part1 you're looking for
  * Errors - e.g. the disk is full & you want to cancel all tasks which write to it
  * Shutdown - the application is requested to shutdown
 
